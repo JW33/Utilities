@@ -1,0 +1,121 @@
+
+ERROR --> SendMail()
+System.Net.Mail.SmtpException: Failure sending mail. ---> System.Net.WebException: The remote name could not be resolved: 'smtp.XXX.com'
+   at System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   at System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   at System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   at System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at DiskInfo.Email.SendEmail(EmailType emailType, String message) in D:\Visual Studio Projects\Utilities\DiskInfo\Email.cs:line 59
+4/20/2020 7:00:39 PM----------------
+
+ - Server: DESKTOP-EG4JK37Device ID : C:        Total Space: 286.1GB        Used Space: 319.3GB        Free Space: 33.2GB         111% of capacity in use <---- Over threshold
+
+4/20/2020 7:00:39 PM----------------
+
+ERROR --> SendMail()
+System.Net.Mail.SmtpException: Failure sending mail. ---> System.Net.WebException: The remote name could not be resolved: 'smtp.XXX.com'
+   at System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   at System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   at System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   at System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at DiskInfo.Email.SendEmail(EmailType emailType, String message)
+4/20/2020 7:01:34 PM----------------
+
+ - Server: DESKTOP-EG4JK37Device ID : D:        Total Space: 172.0GB        Used Space: 73.2GB         Free Space: 98.8GB         42% of capacity in use <---- Over threshold
+
+4/20/2020 7:01:34 PM----------------
+
+Run successfully completed
+4/20/2020 7:01:34 PM----------------
+
+ERROR --> SendMail()
+System.Net.Mail.SmtpException: Failure sending mail. ---> System.Net.WebException: The remote name could not be resolved: 'smtp.XXX.com'
+   at System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   at System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   at System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   at System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at DiskInfo.Email.SendEmail(EmailType emailType, String message) in D:\Visual Studio Projects\Utilities\DiskInfo\Email.cs:line 59
+4/20/2020 7:01:42 PM----------------
+
+ - Server: DESKTOP-EG4JK37Device ID : C:        Total Space: 286.1GB        Used Space: 252.9GB        Free Space: 33.2GB         88% of capacity in use <---- Over threshold
+
+4/20/2020 7:01:42 PM----------------
+
+ERROR --> SendMail()
+System.Net.Mail.SmtpException: Failure sending mail. ---> System.Net.WebException: The remote name could not be resolved: 'smtp.XXX.com'
+   at System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   at System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   at System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   at System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at DiskInfo.Email.SendEmail(EmailType emailType, String message) in D:\Visual Studio Projects\Utilities\DiskInfo\Email.cs:line 59
+4/20/2020 7:01:42 PM----------------
+
+ - Server: DESKTOP-EG4JK37Device ID : D:        Total Space: 172.0GB        Used Space: 73.2GB         Free Space: 98.8GB         42% of capacity in use <---- Over threshold
+
+4/20/2020 7:01:42 PM----------------
+
+Run successfully completed
+4/20/2020 7:01:42 PM----------------
+
+ - Server: DESKTOP-EG4JK37Device ID : C:        Total Space: 286.1GB        Used Space: 252.9GB        Free Space: 33.2GB         88% of capacity in use <---- Over threshold
+
+4/20/2020 7:02:12 PM----------------
+
+ - Server: DESKTOP-EG4JK37Device ID : D:        Total Space: 172.0GB        Used Space: 73.2GB         Free Space: 98.8GB         42% of capacity in use <---- Over threshold
+
+4/20/2020 7:02:19 PM----------------
+
+Run successfully completed
+4/20/2020 7:02:26 PM----------------
+
+ - Server: DESKTOP-EG4JK37Device ID : C:        Total Space: 286.1GB        Used Space: 252.9GB        Free Space: 33.2GB         88% of capacity in use <---- Over threshold
+
+4/20/2020 9:08:54 PM----------------
+
+ - Server: DESKTOP-EG4JK37Device ID : D:        Total Space: 172.0GB        Used Space: 73.2GB         Free Space: 98.8GB         42% of capacity in use <---- Over threshold
+
+4/20/2020 9:08:59 PM----------------
+
+ - Server: DESKTOP-EG4JK37Device ID : C:        Total Space: 286.1GB        Used Space: 253.0GB        Free Space: 33.1GB         88% of capacity in use <---- Over threshold
+
+4/20/2020 9:16:22 PM----------------
+
+ - Server: DESKTOP-EG4JK37Device ID : D:        Total Space: 172.0GB        Used Space: 73.2GB         Free Space: 98.8GB         42% of capacity in use <---- Over threshold
+
+4/20/2020 9:16:29 PM----------------
+
+ - Server: DESKTOP-EG4JK37Device ID : C:        Total Space: 286.1GB        Used Space: 253.0GB        Free Space: 33.1GB         88% of capacity in use <---- Over threshold
+
+4/20/2020 9:18:04 PM----------------
+
+ - Server: DESKTOP-EG4JK37Device ID : C:        Total Space: 286.1GB        Used Space: 253.0GB        Free Space: 33.1GB         88% of capacity in use
+
+4/20/2020 9:28:45 PM----------------
+
+ - Server: DESKTOP-EG4JK37Device ID : D:        Total Space: 172.0GB        Used Space: 73.2GB         Free Space: 98.8GB         42% of capacity in use
+
+4/20/2020 9:28:46 PM----------------
