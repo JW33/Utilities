@@ -1,0 +1,16 @@
+------------------------------
+Device ID           C:
+Total Space:        286.1GB
+Used Space:         253.0GB
+Free Space:         33.1GB
+88% of capacity in use
+------------------------------
+
+------------------------------
+Device ID           D:
+Total Space:        172.0GB
+Used Space:         73.2GB
+Free Space:         98.8GB
+42% of capacity in use
+------------------------------
+
