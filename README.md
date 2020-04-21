@@ -1,7 +1,7 @@
 # Utilities
 
 ### DiskInfo
-If you need to check the disk size on dozens of remote servers, this is the way to do it. Using WMI (Windows Management Instrumentation), the description, system name, name, device id, free space and size are retrieved and run through a series of calculations yielding [](this) in a log file.
+If you need to check the disk size on dozens of remote servers, this is the way to do it. Using WMI (Windows Management Instrumentation), the description, system name, name, device id, free space and size are retrieved and run through a series of calculations yielding [https://github.com/JW33/Utilities/blob/master/DiskInfo/log%20sample.txt](this) in a log file.
 
 An optional email alert can be sent out for a specific threshold.
 
